@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 1 - Javascript</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div id="verificacao_de_idade">
+      <h1>Olá, seja bem vindo!</h1>
+      <h2>Por favor, informe sua idade para entrar no nosso site:</h2>
+      <button id="botao_insere_idade" type="button" onclick="analisa_idade()">
+        Inserir minha idade
+      </button>
+    </div>
+    <div id="interacao_variaveis">
+      <h1>Aula 1 do modulo de Javascript</h1>
+      <h3 id="numero_incrementado">Let = 0</h3>
+      <h3 id="numero_nao_incrementado">Const = 0</h3>
+      <button id="meu_butao" type="button" onclick="tenta_incrementar_let()">
+        Incrementar variável tipo: let
+      </button>
+      <button
+        id="meu_outro_butao"
+        type="button"
+        onclick="tenta_incrementar_const()"
+      >
+        Incrementar variável tipo: const
+      </button>
+    </div>
+  </body>
+</html>
